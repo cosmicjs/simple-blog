@@ -1,0 +1,23 @@
+  <footer class="footer">
+    <div style="margin-top: 20px">
+      <a href="https://cosmicjs.com" target="_blank" style="text-decoration: none;"><img style="float:left;margin-right:15px;position:relative;" src="https://cosmicjs.com/images/logo.svg" width="28" height="28"><span class="powered-by" style="position:relative; top: 4px; color: #333;">Proudly powered by Cosmic JS</span></a>
+    </div>
+    <div class="copyright">
+      &copy;&nbsp;&nbsp;{{ year }} Cosmic JS
+    </div>
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <script>
+    $(function() {
+      $('.card').on('click', function() {
+        var href = $(this).data('href');
+        if (href)
+          window.location.href = href;
+      });
+    });
+    </script>
+  </footer>
+</body>
+</html>
