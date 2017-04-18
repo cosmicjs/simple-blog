@@ -1,6 +1,5 @@
 # Blog Roll
 ![Blog Roll](https://cosmicjs.imgix.net/99d93c80-23f5-11e7-875c-3f5dc9c15c2b-paradise.jpg?w=1500)
-
 ### [View Demo](https://cosmicjs.com/apps/blog-roll/demo)
 ### Getting Started
 ```
