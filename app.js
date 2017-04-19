@@ -8,7 +8,7 @@ app.set('port', (process.env.PORT || 3000))
 app.use('/', express.static(__dirname + '/public/'))
 const Cosmic = require('cosmicjs')
 const helpers = require('./helpers')
-const bucket_slug = process.env.COSMIC_BUCKET || 'blog-roll'
+const bucket_slug = process.env.COSMIC_BUCKET || 'simple-blog-website'
 const read_key = process.env.COSMIC_READ_KEY
 const partials = {
   header: 'partials/header',
