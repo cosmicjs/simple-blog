@@ -1,6 +1,6 @@
 # Simple Blog
 ![Simple Roll](https://cosmicjs.com/uploads/6465cab0-246c-11e7-995a-2b3b96eb2f07-Screen%20Shot%202017-04-18%20at%202.22.26%20PM.png)
-### [View Demo](https://cosmicjs.com/apps/blog-roll/demo)
+### [View Demo](https://cosmicjs.com/apps/simple-blog/demo)
 ### Getting Started
 ```
 git clone https://github.com/cosmicjs/simple-blog
