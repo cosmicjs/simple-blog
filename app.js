@@ -24,7 +24,7 @@ app.get('/', (req, res) => {
     const cosmic = response
     if (cosmic.objects.type.posts) {
       cosmic.objects.type.posts.forEach(post => {
-        const friendly_date = helpers.friendlyDate(new Date(post.created_at))
+        const friendly_date = helpers.friendlyDate(new Date(post.created))
         post.friendly_date = friendly_date.month + ' ' + friendly_date.date
       })
     } else {
@@ -40,7 +40,7 @@ app.get('/:slug', (req, res) => {
     const cosmic = response
     if (cosmic.objects.type.posts) {
       cosmic.objects.type.posts.forEach(post => {
-        const friendly_date = helpers.friendlyDate(new Date(post.created_at))
+        const friendly_date = helpers.friendlyDate(new Date(post.created))
         post.friendly_date = friendly_date.month + ' ' + friendly_date.date
         // Get current post
         if (post.slug === req.params.slug)
@@ -62,7 +62,7 @@ app.get('/author/:slug', (req, res) => {
     if (cosmic.objects.type.posts) {
       let author_posts = []
       cosmic.objects.type.posts.forEach(post => {
-        const friendly_date = helpers.friendlyDate(new Date(post.created_at))
+        const friendly_date = helpers.friendlyDate(new Date(post.created))
         post.friendly_date = friendly_date.month + ' ' + friendly_date.date
         if (post.metadata.author.slug === req.params.slug) {
           res.locals.author = post.metadata.author
