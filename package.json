@@ -1,7 +1,8 @@
 {
   "dependencies": {
-    "cosmicjs": "^2.39.0",
-    "express": "^4.15.2",
+    "async": "^2.5.0",
+    "cosmicjs": "^2.4.20",
+    "express": "^4.16.1",
     "hogan-express": "^0.5.2",
     "nodemon": "^1.11.0"
   },
