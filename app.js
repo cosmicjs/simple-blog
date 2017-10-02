@@ -53,6 +53,8 @@ app.get('/:slug', (req, res) => {
     callback => {
       Cosmic.getObject(config, { slug: req.params.slug, status: 'all' }, (err, response) => {
         res.locals.current_post = response.object
+        const friendly_date = helpers.friendlyDate(new Date(response.object.created))
+        res.locals.current_post.friendly_date = friendly_date.month + ' ' + friendly_date.date
         if (!res.locals.current_post)
           res.status(404)
         res.render('post.html', { partials })
