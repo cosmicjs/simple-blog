@@ -25,3 +25,5 @@ You can easily manage the content in your Simple Blog website on Cosmic JS.  Fol
 3. Go to Your Bucket > Apps.
 4. Install the [Simple Blog Website](https://cosmicjs.com/apps/simple-blog).
 5. Deploy your Blog Roll to the Cosmic App Server at Your Bucket > Web Hosting.
+
+Cosmic JS makes a great [Node.js CMS](https://cosmicjs.com/knowledge-base/nodejs-cms) for your Node.js apps.
