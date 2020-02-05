@@ -12,8 +12,9 @@ yarn
 yarn run development
 ```
 #### Run in production
+Get your Bucket slug and read key after logging in from <i>Bucket > Settings > API Keys</i>
 ```
-COSMIC_BUCKET=your-bucket-slug yarn start
+COSMIC_BUCKET=your-bucket-slug COSMIC_READ_KEY=your-bucket-read-key yarn start
 ```
 Open [http://localhost:3000](http://localhost:3000).
 
@@ -21,9 +22,8 @@ Open [http://localhost:3000](http://localhost:3000).
 You can easily manage the content in your Simple Blog website on Cosmic JS.  Follow these steps:
 
 1. [Log in to Cosmic JS](https://cosmicjs.com).
-2. Create a Bucket.
-3. Go to Your Bucket > Apps.
-4. Install the [Simple Blog Website](https://cosmicjs.com/apps/simple-blog).
-5. Deploy your Blog Roll to the Cosmic App Server at Your Bucket > Web Hosting.
+2. Create a Bucket. Choose Start from App.
+3. Install the [Simple Blog Website](https://cosmicjs.com/apps/simple-blog).
+4. Deploy your Blog using your hosting provider of choice. We offer a [Deploy to Web Extension](https://www.cosmicjs.com/extensions/deploy-to-web) to make this easy.
 
 Cosmic JS makes a great [Node.js CMS](https://cosmicjs.com/knowledge-base/nodejs-cms) for your Node.js apps.
