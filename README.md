@@ -8,7 +8,7 @@ cd simple-blog
 yarn
 ```
 #### Config!
-Get your Bucket slug and read key after [logging in to Cosmic JS](https://cosmicjs.com/login) and going to <i>Bucket > Settings > API Keys</i>
+Get your Bucket slug and read key after [logging in to Cosmic JS](https://cosmicjs.com/login) and going to <i>Bucket > Settings > API Keys</i>.
 
 #### Run in development
 ```
