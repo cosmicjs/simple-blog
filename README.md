@@ -7,12 +7,14 @@ git clone https://github.com/cosmicjs/simple-blog
 cd simple-blog
 yarn
 ```
+#### Config!
+Get your Bucket slug and read key after [logging in to Cosmic JS](https://cosmicjs.com/login) and going to <i>Bucket > Settings > API Keys</i>
+
 #### Run in development
 ```
 COSMIC_BUCKET=your-bucket-slug COSMIC_READ_KEY=your-bucket-read-key yarn run development
 ```
 #### Run in production
-Get your Bucket slug and read key after logging in from <i>Bucket > Settings > API Keys</i>
 ```
 COSMIC_BUCKET=your-bucket-slug COSMIC_READ_KEY=your-bucket-read-key yarn start
 ```
