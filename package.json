@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "async": "^2.5.0",
+    "async": "^2.6.4",
     "cosmicjs": "^2.4.20",
     "express": "^4.16.1",
     "hogan-express": "^0.5.2",
